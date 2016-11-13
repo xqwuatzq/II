@@ -3,6 +3,34 @@
     <FileVersion>1.0</FileVersion>
     <SymbolTable>
       <Symbol>
+        <Address>%M40</Address>
+        <SymbolName>BR1_RESET</SymbolName>
+        <NumAddresses>1</NumAddresses>
+        <NumAttributes>1</NumAttributes>
+        <XAddress>40</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>16</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>5</InfoFlags>
+        <SortOrder>1600</SortOrder>
+        <Comment>$</Comment>
+      </Symbol>
+      <Symbol>
+        <Address>%M41</Address>
+        <SymbolName>BR2_RESET</SymbolName>
+        <NumAddresses>1</NumAddresses>
+        <NumAttributes>1</NumAttributes>
+        <XAddress>41</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>16</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>1</InfoFlags>
+        <SortOrder>1600</SortOrder>
+        <Comment>$</Comment>
+      </Symbol>
+      <Symbol>
         <Address>%M10</Address>
         <SymbolName>E0_CONTROL</SymbolName>
         <NumAddresses>1</NumAddresses>
@@ -185,17 +213,59 @@
         <Comment>$</Comment>
       </Symbol>
       <Symbol>
-        <Address>%I0.0.1</Address>
-        <SymbolName>I_BR1_ER_</SymbolName>
-        <NumAddresses>3</NumAddresses>
+        <Address>%M29</Address>
+        <SymbolName>ETAPA_50</SymbolName>
+        <NumAddresses>1</NumAddresses>
         <NumAttributes>1</NumAttributes>
-        <XAddress>0</XAddress>
-        <YAddress>0</YAddress>
-        <ZAddress>1</ZAddress>
-        <ObjectType>17</ObjectType>
+        <XAddress>29</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>16</ObjectType>
         <OwnedBy>-1</OwnedBy>
-        <InfoFlags>5</InfoFlags>
-        <SortOrder>1100</SortOrder>
+        <InfoFlags>1</InfoFlags>
+        <SortOrder>1600</SortOrder>
+        <Comment>$</Comment>
+      </Symbol>
+      <Symbol>
+        <Address>%M30</Address>
+        <SymbolName>ETAPA_51</SymbolName>
+        <NumAddresses>1</NumAddresses>
+        <NumAttributes>1</NumAttributes>
+        <XAddress>30</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>16</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>1</InfoFlags>
+        <SortOrder>1600</SortOrder>
+        <Comment>$</Comment>
+      </Symbol>
+      <Symbol>
+        <Address>%M31</Address>
+        <SymbolName>ETAPA_60</SymbolName>
+        <NumAddresses>1</NumAddresses>
+        <NumAttributes>1</NumAttributes>
+        <XAddress>31</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>16</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>1</InfoFlags>
+        <SortOrder>1600</SortOrder>
+        <Comment>$</Comment>
+      </Symbol>
+      <Symbol>
+        <Address>%M32</Address>
+        <SymbolName>ETAPA_61</SymbolName>
+        <NumAddresses>1</NumAddresses>
+        <NumAttributes>1</NumAttributes>
+        <XAddress>32</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>16</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>1</InfoFlags>
+        <SortOrder>1600</SortOrder>
         <Comment>$</Comment>
       </Symbol>
       <Symbol>
@@ -234,6 +304,20 @@
         <XAddress>0</XAddress>
         <YAddress>0</YAddress>
         <ZAddress>0</ZAddress>
+        <ObjectType>17</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>5</InfoFlags>
+        <SortOrder>1100</SortOrder>
+        <Comment>$</Comment>
+      </Symbol>
+      <Symbol>
+        <Address>%I0.0.1</Address>
+        <SymbolName>I_BR1_FC_1</SymbolName>
+        <NumAddresses>3</NumAddresses>
+        <NumAttributes>1</NumAttributes>
+        <XAddress>0</XAddress>
+        <YAddress>0</YAddress>
+        <ZAddress>1</ZAddress>
         <ObjectType>17</ObjectType>
         <OwnedBy>-1</OwnedBy>
         <InfoFlags>5</InfoFlags>
@@ -532,16 +616,16 @@
         <Password>$</Password>
         <AppName>My Twido</AppName>
         <AppVersion>1</AppVersion>
-        <AppSignature>31093</AppSignature>
+        <AppSignature>23685</AppSignature>
         <AppMaxCycleTime>250</AppMaxCycleTime>
         <AppMinCycleTime>0</AppMinCycleTime>
         <Protection>0</Protection>
         <Autoload>0</Autoload>
         <AppReadyToRun>1</AppReadyToRun>
-        <LenListIdTableModBuffer>2351</LenListIdTableModBuffer>
-        <AppIntModBufferLength>12224</AppIntModBufferLength>
-        <AppMaxModsAllowed>764</AppMaxModsAllowed>
-        <AppDiffLadderSize>0</AppDiffLadderSize>
+        <LenListIdTableModBuffer>2293</LenListIdTableModBuffer>
+        <AppIntModBufferLength>11920</AppIntModBufferLength>
+        <AppMaxModsAllowed>745</AppMaxModsAllowed>
+        <AppDiffLadderSize>2</AppDiffLadderSize>
         <AppNumExtLabel>2</AppNumExtLabel>
         <AppNumModsUsedInt>0</AppNumModsUsedInt>
         <LangVersion>1</LangVersion>
@@ -550,8 +634,8 @@
         <HardwarePartNumber>TWDLCAA16DRF</HardwarePartNumber>
         <HardwareID>2225</HardwareID>
         <HWOptionsStatus>0</HWOptionsStatus>
-        <AppTableChksum>61834</AppTableChksum>
-        <AppStructChksum>12511</AppStructChksum>
+        <AppTableChksum>61667</AppTableChksum>
+        <AppStructChksum>43198</AppStructChksum>
       </AppTable>
       <KWTable>
       </KWTable>
@@ -570,6 +654,34 @@
           <TMIndex>1</TMIndex>
           <PresetValue>3</PresetValue>
           <TimeBase>2</TimeBase>
+          <TimeType>0</TimeType>
+          <ModifyFlag>1</ModifyFlag>
+        </Timer>
+        <Timer>
+          <TMIndex>2</TMIndex>
+          <PresetValue>2</PresetValue>
+          <TimeBase>3</TimeBase>
+          <TimeType>0</TimeType>
+          <ModifyFlag>1</ModifyFlag>
+        </Timer>
+        <Timer>
+          <TMIndex>3</TMIndex>
+          <PresetValue>1</PresetValue>
+          <TimeBase>3</TimeBase>
+          <TimeType>0</TimeType>
+          <ModifyFlag>1</ModifyFlag>
+        </Timer>
+        <Timer>
+          <TMIndex>4</TMIndex>
+          <PresetValue>2</PresetValue>
+          <TimeBase>3</TimeBase>
+          <TimeType>0</TimeType>
+          <ModifyFlag>1</ModifyFlag>
+        </Timer>
+        <Timer>
+          <TMIndex>5</TMIndex>
+          <PresetValue>1</PresetValue>
+          <TimeBase>3</TimeBase>
           <TimeType>0</TimeType>
           <ModifyFlag>1</ModifyFlag>
         </Timer>
@@ -663,28 +775,50 @@
         <ListInstruction>ST    %M100</ListInstruction>
         <ListInstruction>(* TIMERS MÁQUINA *)</ListInstruction>
         <ListInstruction>BLK   %TM2</ListInstruction>
-        <ListInstruction>LD    1</ListInstruction>
+        <ListInstruction>LD    %M25</ListInstruction>
         <ListInstruction>IN</ListInstruction>
         <ListInstruction>END_BLK</ListInstruction>
         <ListInstruction>BLK   %TM3</ListInstruction>
-        <ListInstruction>LD    1</ListInstruction>
+        <ListInstruction>LD    %M27</ListInstruction>
         <ListInstruction>IN</ListInstruction>
         <ListInstruction>END_BLK</ListInstruction>
         <ListInstruction>BLK   %TM4</ListInstruction>
-        <ListInstruction>LD    1</ListInstruction>
+        <ListInstruction>LD    %M26</ListInstruction>
         <ListInstruction>IN</ListInstruction>
         <ListInstruction>END_BLK</ListInstruction>
         <ListInstruction>BLK   %TM5</ListInstruction>
-        <ListInstruction>LD    1</ListInstruction>
+        <ListInstruction>LD    %M28</ListInstruction>
         <ListInstruction>IN</ListInstruction>
         <ListInstruction>END_BLK</ListInstruction>
+        <ListInstruction>LDN   %M21</ListInstruction>
+        <ListInstruction>ANDN  %M23</ListInstruction>
+        <ListInstruction>ANDN  %M25</ListInstruction>
+        <ListInstruction>ANDN  %M27</ListInstruction>
+        <ListInstruction>ANDN  %M29</ListInstruction>
+        <ListInstruction>ANDN  %M31</ListInstruction>
+        <ListInstruction>ST    %M40</ListInstruction>
+        <ListInstruction>LDN   %M22</ListInstruction>
+        <ListInstruction>ANDN  %M24</ListInstruction>
+        <ListInstruction>ANDN  %M26</ListInstruction>
+        <ListInstruction>ANDN  %M28</ListInstruction>
+        <ListInstruction>ANDN  %M30</ListInstruction>
+        <ListInstruction>ANDN  %M32</ListInstruction>
+        <ListInstruction>ST    %M41</ListInstruction>
         <ListInstruction>(* MÁQUINA DE ESTADOS *)</ListInstruction>
-        <ListInstruction>LD    %M100</ListInstruction>
+        <ListInstruction>LD    %M40</ListInstruction>
+        <ListInstruction>AND   %M41</ListInstruction>
+        <ListInstruction>OR(   %M31</ListInstruction>
+        <ListInstruction>AND   %M32</ListInstruction>
+        <ListInstruction>AND   %I0.0.0</ListInstruction>
+        <ListInstruction>AND   %I0.0.4</ListInstruction>
+        <ListInstruction>)</ListInstruction>
         <ListInstruction>S     %M20</ListInstruction>
+        <ListInstruction>R     %M31</ListInstruction>
+        <ListInstruction>R     %M32</ListInstruction>
         <ListInstruction>LD    %M20</ListInstruction>
         <ListInstruction>AND   %M100</ListInstruction>
         <ListInstruction>AND   %I0.0.0</ListInstruction>
-        <ListInstruction>AND   %I0.0.5</ListInstruction>
+        <ListInstruction>AND   %I0.0.4</ListInstruction>
         <ListInstruction>S     %M21</ListInstruction>
         <ListInstruction>S     %M22</ListInstruction>
         <ListInstruction>R     %M20</ListInstruction>
@@ -712,6 +846,47 @@
         <ListInstruction>AND   %TM4.Q</ListInstruction>
         <ListInstruction>S     %M28</ListInstruction>
         <ListInstruction>R     %M26</ListInstruction>
+        <ListInstruction>LD    %M27</ListInstruction>
+        <ListInstruction>AND   %TM3.Q</ListInstruction>
+        <ListInstruction>S     %M29</ListInstruction>
+        <ListInstruction>R     %M27</ListInstruction>
+        <ListInstruction>LD    %M28</ListInstruction>
+        <ListInstruction>AND   %TM5.Q</ListInstruction>
+        <ListInstruction>S     %M30</ListInstruction>
+        <ListInstruction>R     %M28</ListInstruction>
+        <ListInstruction>LD    %M29</ListInstruction>
+        <ListInstruction>AND   %I0.0.2</ListInstruction>
+        <ListInstruction>S     %M31</ListInstruction>
+        <ListInstruction>R     %M29</ListInstruction>
+        <ListInstruction>LD    %M30</ListInstruction>
+        <ListInstruction>AND   %I0.0.6</ListInstruction>
+        <ListInstruction>S     %M32</ListInstruction>
+        <ListInstruction>R     %M30</ListInstruction>
+        <ListInstruction>(* DESCODIFICADOR DE SAÍDA *)</ListInstruction>
+        <ListInstruction>LD    %M21</ListInstruction>
+        <ListInstruction>OR    %M23</ListInstruction>
+        <ListInstruction>OR    %M25</ListInstruction>
+        <ListInstruction>OR    %M27</ListInstruction>
+        <ListInstruction>OR    %M29</ListInstruction>
+        <ListInstruction>ST    %Q0.0.0</ListInstruction>
+        <ListInstruction>LD    %M23</ListInstruction>
+        <ListInstruction>OR    %M25</ListInstruction>
+        <ListInstruction>OR    %M27</ListInstruction>
+        <ListInstruction>ST    %Q0.0.1</ListInstruction>
+        <ListInstruction>LD    %M25</ListInstruction>
+        <ListInstruction>ST    %Q0.0.2</ListInstruction>
+        <ListInstruction>LD    %M22</ListInstruction>
+        <ListInstruction>OR    %M24</ListInstruction>
+        <ListInstruction>OR    %M26</ListInstruction>
+        <ListInstruction>OR    %M28</ListInstruction>
+        <ListInstruction>OR    %M30</ListInstruction>
+        <ListInstruction>ST    %Q0.0.3</ListInstruction>
+        <ListInstruction>LD    %M24</ListInstruction>
+        <ListInstruction>OR    %M26</ListInstruction>
+        <ListInstruction>OR    %M28</ListInstruction>
+        <ListInstruction>ST    %Q0.0.4</ListInstruction>
+        <ListInstruction>LD    %M26</ListInstruction>
+        <ListInstruction>ST    %Q0.0.5</ListInstruction>
       </Section>
       <ProgramValidated>TRUE</ProgramValidated>
       <ProgramForceValidation>FALSE</ProgramForceValidation>
