@@ -157,6 +157,34 @@
         <Comment>$</Comment>
       </Symbol>
       <Symbol>
+        <Address>%M27</Address>
+        <SymbolName>ETAPA_40</SymbolName>
+        <NumAddresses>1</NumAddresses>
+        <NumAttributes>1</NumAttributes>
+        <XAddress>27</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>16</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>1</InfoFlags>
+        <SortOrder>1600</SortOrder>
+        <Comment>$</Comment>
+      </Symbol>
+      <Symbol>
+        <Address>%M28</Address>
+        <SymbolName>ETAPA_41</SymbolName>
+        <NumAddresses>1</NumAddresses>
+        <NumAttributes>1</NumAttributes>
+        <XAddress>28</XAddress>
+        <YAddress>-1</YAddress>
+        <ZAddress>-1</ZAddress>
+        <ObjectType>16</ObjectType>
+        <OwnedBy>-1</OwnedBy>
+        <InfoFlags>1</InfoFlags>
+        <SortOrder>1600</SortOrder>
+        <Comment>$</Comment>
+      </Symbol>
+      <Symbol>
         <Address>%I0.0.1</Address>
         <SymbolName>I_BR1_ER_</SymbolName>
         <NumAddresses>3</NumAddresses>
@@ -504,15 +532,15 @@
         <Password>$</Password>
         <AppName>My Twido</AppName>
         <AppVersion>1</AppVersion>
-        <AppSignature>14962</AppSignature>
+        <AppSignature>31093</AppSignature>
         <AppMaxCycleTime>250</AppMaxCycleTime>
         <AppMinCycleTime>0</AppMinCycleTime>
         <Protection>0</Protection>
         <Autoload>0</Autoload>
         <AppReadyToRun>1</AppReadyToRun>
-        <LenListIdTableModBuffer>2359</LenListIdTableModBuffer>
-        <AppIntModBufferLength>12256</AppIntModBufferLength>
-        <AppMaxModsAllowed>766</AppMaxModsAllowed>
+        <LenListIdTableModBuffer>2351</LenListIdTableModBuffer>
+        <AppIntModBufferLength>12224</AppIntModBufferLength>
+        <AppMaxModsAllowed>764</AppMaxModsAllowed>
         <AppDiffLadderSize>0</AppDiffLadderSize>
         <AppNumExtLabel>2</AppNumExtLabel>
         <AppNumModsUsedInt>0</AppNumModsUsedInt>
@@ -522,8 +550,8 @@
         <HardwarePartNumber>TWDLCAA16DRF</HardwarePartNumber>
         <HardwareID>2225</HardwareID>
         <HWOptionsStatus>0</HWOptionsStatus>
-        <AppTableChksum>61874</AppTableChksum>
-        <AppStructChksum>17394</AppStructChksum>
+        <AppTableChksum>61834</AppTableChksum>
+        <AppStructChksum>12511</AppStructChksum>
       </AppTable>
       <KWTable>
       </KWTable>
@@ -676,6 +704,14 @@
         <ListInstruction>AND   %I0.0.7</ListInstruction>
         <ListInstruction>S     %M26</ListInstruction>
         <ListInstruction>R     %M24</ListInstruction>
+        <ListInstruction>LD    %M25</ListInstruction>
+        <ListInstruction>AND   %TM2.Q</ListInstruction>
+        <ListInstruction>S     %M27</ListInstruction>
+        <ListInstruction>R     %M25</ListInstruction>
+        <ListInstruction>LD    %M26</ListInstruction>
+        <ListInstruction>AND   %TM4.Q</ListInstruction>
+        <ListInstruction>S     %M28</ListInstruction>
+        <ListInstruction>R     %M26</ListInstruction>
       </Section>
       <ProgramValidated>TRUE</ProgramValidated>
       <ProgramForceValidation>FALSE</ProgramForceValidation>
